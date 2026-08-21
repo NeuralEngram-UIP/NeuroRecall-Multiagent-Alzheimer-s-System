@@ -1,0 +1,115 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+venv/
+.env/
+.venv/
+
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+
+
+# ==========================
+# OS Generated Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+
+# ==========================
+# Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# Local database files
+database/*.db
+
+
+# ==========================
+# Vector Databases
+# ==========================
+qdrant_storage/
+qdrant_data/
+.vector_store/
+
+
+# ==========================
+# Machine Learning Models
+# ==========================
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+
+# ==========================
+# HuggingFace Cache
+# ==========================
+.cache/
+huggingface_cache/
+
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+
+# ==========================
+# Frontend (Future React)
+# ==========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
